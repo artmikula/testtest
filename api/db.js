@@ -2,8 +2,8 @@ const mariadb = require("mariadb");
 
 const pool = mariadb.createPool({
   host: "mariadb",
-  user: "my_user",
-  password: "ROOT",
+  user: "user02",
+  password: "mypass",
   database: "car_db",
 });
 
